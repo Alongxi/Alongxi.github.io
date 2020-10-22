@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>keil Arm新注册机解锁注册至2032年</title>
+      <link href="2020/10/22/keil-arm-xin-zhu-ce-ji-jie-suo-zhu-ce-zhi-2032-nian/"/>
+      <url>2020/10/22/keil-arm-xin-zhu-ce-ji-jie-suo-zhu-ce-zhi-2032-nian/</url>
+      
+        <content type="html"><![CDATA[<p>还在为keil注册机只能注册到2020年而烦恼，那么2020年之后该如何正常使用keil软件进行编程呢，这里将贴出最新版本的keil注册机，直接将你的Keil软件注册至2032年。</p><a id="more"></a><h2 id="一、简介"><a href="#一、简介" class="headerlink" title="一、简介"></a>一、简介</h2><p>Keil keygen软件是一款老牌的keil系列产品的注册机，可以注册keil旗下系列产品，如：Keil MDK、Keil c51等。</p><h2 id="二、下载"><a href="#二、下载" class="headerlink" title="二、下载"></a>二、下载</h2><span class='btn center large'><a class="button" href='https://gitee.com/Alongxi/img/raw/master/mypic/keil注册2032.zip' title='下载链接'><i class='fas fa-download'></i>下载链接</a></span><h2 id="三、使用方法"><a href="#三、使用方法" class="headerlink" title="三、使用方法"></a>三、使用方法</h2><div class="note "><p>1、右键管理员运行方式打开Keil MDK(Keil c51同理)。</p></div><p><img src="https://gitee.com/Alongxi/img/raw/master/mypic/keil1.png" class="lazyload" data-srcset="https://gitee.com/Alongxi/img/raw/master/mypic/keil1.png" srcset="data:image/png;base64,666"></p><div class="note "><p>2、点击菜单左上角“File-License Management”打开界面。</p></div><p><img src="https://gitee.com/Alongxi/img/raw/master/mypic/keil2.png" class="lazyload" data-srcset="https://gitee.com/Alongxi/img/raw/master/mypic/keil2.png" srcset="data:image/png;base64,666"></p><div class="note "><p>3、复制右上角CID。</p></div><p><img src="https://gitee.com/Alongxi/img/raw/master/mypic/keil3.png" class="lazyload" data-srcset="https://gitee.com/Alongxi/img/raw/master/mypic/keil3.png" srcset="data:image/png;base64,666"></p><div class="note "><p>4、将电脑上的所有杀毒软件关闭。</p></div><p><img src="https://gitee.com/Alongxi/img/raw/master/mypic/keil4.png" class="lazyload" data-srcset="https://gitee.com/Alongxi/img/raw/master/mypic/keil4.png" srcset="data:image/png;base64,666"></p><div class="note "><p>5、将下载好的压缩包解压，解压完如图所示。</p></div><p><img src="https://gitee.com/Alongxi/img/raw/master/mypic/keil5.png" class="lazyload" data-srcset="https://gitee.com/Alongxi/img/raw/master/mypic/keil5.png" srcset="data:image/png;base64,666"></p><div class="note "><p>6、打开解压文件夹，找到“keygen.exe”，双击打开“keygen.exe”（会出现一个很奇怪的bgm，不要惊讶），将复制好的CID粘贴至注册机CID一栏，选择你所使用的产品型号，中间栏不管（默认Prof.Develpers Kit(Plus)），按下Generate，自动生成注册码，复制注册码。</p></div><p><img src="https://gitee.com/Alongxi/img/raw/master/mypic/keil6.png" class="lazyload" data-srcset="https://gitee.com/Alongxi/img/raw/master/mypic/keil6.png" srcset="data:image/png;base64,666"></p><p><img src="https://gitee.com/Alongxi/img/raw/master/mypic/keil7.png" class="lazyload" data-srcset="https://gitee.com/Alongxi/img/raw/master/mypic/keil7.png" srcset="data:image/png;base64,666"></p><p><img src="https://gitee.com/Alongxi/img/raw/master/mypic/keil8.png" class="lazyload" data-srcset="https://gitee.com/Alongxi/img/raw/master/mypic/keil8.png" srcset="data:image/png;base64,666"></p><div class="note "><p>7、将注册码粘贴至刚才打开的Keil Licence Management界面的“New License ID Code”一栏，点击“Add LIC”，注册成功时中间会显示“Expires：XXX 2032”，到此完成注册。</p></div><p><img src="https://gitee.com/Alongxi/img/raw/master/mypic/keil9.png" class="lazyload" data-srcset="https://gitee.com/Alongxi/img/raw/master/mypic/keil9.png" srcset="data:image/png;base64,666"></p><p><img src="https://gitee.com/Alongxi/img/raw/master/mypic/keil10.png" class="lazyload" data-srcset="https://gitee.com/Alongxi/img/raw/master/mypic/keil10.png" srcset="data:image/png;base64,666"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Keil </tag>
+            
+            <tag> 教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>从0开始搭建MC服务器</title>
       <link href="2020/10/20/cong-0-kai-shi-da-jian-mc-fu-wu-qi/"/>
       <url>2020/10/20/cong-0-kai-shi-da-jian-mc-fu-wu-qi/</url>
@@ -20,9 +47,9 @@
       
         <tags>
             
-            <tag> MC </tag>
-            
             <tag> 教程 </tag>
+            
+            <tag> MC </tag>
             
         </tags>
       
