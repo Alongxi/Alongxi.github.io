@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>Altium Designer常用3D封装库，覆盖90%以上元器件</title>
+      <link href="2020/12/25/altium-designer-chang-yong-3d-feng-zhuang-ku-fu-gai-90-yi-shang-yuan-qi-jian/"/>
+      <url>2020/12/25/altium-designer-chang-yong-3d-feng-zhuang-ku-fu-gai-90-yi-shang-yuan-qi-jian/</url>
+      
+        <content type="html"><![CDATA[<p>来自源创客整理的封装库。</p><a id="more"></a><div class="img-wrap"><div class="img-bg"><img class="img lazyload" src="https://cdn.jsdelivr.net/gh/Alongxi/image/img/ady1.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/Alongxi/image/img/ady1.png" srcset="data:image/png;base64,666" alt="预览"/></div><span class="image-caption">预览</span></div><h2 id="一、下载"><a href="#一、下载" class="headerlink" title="一、下载"></a>一、下载</h2><p>下载链接</p><span class='btn center large'><a class="button" href='https://pan.baidu.com/s/1M9aMzP6H83LqeFbf1VBubg' title='百度网盘 提取码：1234'><i class='fas fa-download'></i>百度网盘 提取码：1234</a></span><h2 id="二、解压缩"><a href="#二、解压缩" class="headerlink" title="二、解压缩"></a>二、解压缩</h2><p>下载好文件之后，解压文件获得以下文件夹。</p><p><img src="https://cdn.jsdelivr.net/gh/Alongxi/image/img/ady9.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/Alongxi/image/img/ady9.png" srcset="data:image/png;base64,666"></p><h2 id="三、安装"><a href="#三、安装" class="headerlink" title="三、安装"></a>三、安装</h2><p>1、移动文件夹至一个显眼的位置<strong>【方便未来添加或修改元器件封装】</strong>，最好移动至固态硬盘，可以加速AD的安装速度。这里我移动至AD DATA文件夹中。</p><p><img src="https://cdn.jsdelivr.net/gh/Alongxi/image/img/ady8.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/Alongxi/image/img/ady8.png" srcset="data:image/png;base64,666"></p><p>2、打开AD20,点击右下角<strong>Panels</strong>，将<strong>Components</strong>打上勾。</p><p><img src="https://cdn.jsdelivr.net/gh/Alongxi/image/img/ady2.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/Alongxi/image/img/ady2.png" srcset="data:image/png;base64,666"></p><p>3、点击<strong>右侧按钮</strong>，选择<strong>第一个选项</strong>。</p><p><img src="https://cdn.jsdelivr.net/gh/Alongxi/image/img/ady3.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/Alongxi/image/img/ady3.png" srcset="data:image/png;base64,666"></p><p>4、点击左上角<strong>【已安装】</strong>，再点击<strong>安装</strong>。</p><p><img src="https://cdn.jsdelivr.net/gh/Alongxi/image/img/ady4.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/Alongxi/image/img/ady4.png" srcset="data:image/png;base64,666"></p><p>5、找到库所在文件夹，<strong>【Ctrl+A全选文件】</strong>，点击<strong>打开</strong>。</p><p><img src="https://cdn.jsdelivr.net/gh/Alongxi/image/img/ady5.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/Alongxi/image/img/ady5.png" srcset="data:image/png;base64,666"></p><p>6、至此，元件库安装完毕。</p><p><img src="https://cdn.jsdelivr.net/gh/Alongxi/image/img/ady6.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/Alongxi/image/img/ady6.png" srcset="data:image/png;base64,666"></p><p><img src="https://cdn.jsdelivr.net/gh/Alongxi/image/img/ady7.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/Alongxi/image/img/ady7.png" srcset="data:image/png;base64,666"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具 </category>
+          
+          <category> Hide </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+            <tag> Altium Designer </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>批量修改文件名--快速修改文件名称的神器</title>
       <link href="2020/12/23/pi-liang-xiu-gai-wen-jian-ming-kuai-su-xiu-gai-wen-jian-ming-cheng-de-shen-qi/"/>
       <url>2020/12/23/pi-liang-xiu-gai-wen-jian-ming-kuai-su-xiu-gai-wen-jian-ming-cheng-de-shen-qi/</url>
@@ -17,35 +46,6 @@
           
       </categories>
       
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Altium Designer简单入门</title>
-      <link href="2020/12/22/altium-designer-jian-dan-ru-men/"/>
-      <url>2020/12/22/altium-designer-jian-dan-ru-men/</url>
-      
-        <content type="html"><![CDATA[<p>。。。</p><a id="more"></a><p>一、UI介绍</p><a href="#">Post not found: demo/234 emmm</a>]]></content>
-      
-      
-      <categories>
-          
-          <category> 工具 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 教程 </tag>
-            
-            <tag> Altium Designer </tag>
-            
-            <tag> hide </tag>
-            
-        </tags>
       
     </entry>
     
@@ -168,6 +168,8 @@
       <categories>
           
           <category> 工具 </category>
+          
+          <category> Hide </category>
           
       </categories>
       
