@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>【XT-100】Mini-T12用户手册</title>
+      <link href="2021/04/12/gong-ju-mini-t12-yong-hu-shou-ce/"/>
+      <url>2021/04/12/gong-ju-mini-t12-yong-hu-shou-ce/</url>
+      
+        <content type="html"><![CDATA[<p>​    关于【XT-100】(Mini-T12)的用户使用手册。</p><a id="more"></a><center><font face="楷体" size=40 color=white>XT-100便携式电焊笔用户手册</font></center><p><strong>修订历史</strong></p><table><thead><tr><th align="center"><strong>版本</strong></th><th align="center"><strong>更新日期</strong></th><th align="center"><strong>更新说明</strong></th><th align="center"><strong>作者</strong></th></tr></thead><tbody><tr><td align="center">V1.0.0</td><td align="center">2021.04.06</td><td align="center">首次发布。Demo版本，用于内部测试。</td><td align="center">Along</td></tr><tr><td align="center">V1.2.7</td><td align="center">2021.04.12</td><td align="center">发行版本。修复若干Bug。</td><td align="center">Along</td></tr></tbody></table><h1 id="一、前言"><a href="#一、前言" class="headerlink" title="一、前言"></a>一、前言</h1><p>本产品使用STC8G2K64S4/STC8G2KS60S4单片机作为主控芯片。集成快充协议诱骗芯片，可兼容QC3.0/2.0，BC1.2，PD3.0/2.0等充电协议，固件默认使用最高电压输出，在使用支持20V输出的PD充电器或移动电源时，会自动适配20V电压对烙铁进行供电，理论功率能达到45W，0-300度升温在12秒左右，PD供电时，显示界面电压会出现跳变，在16-20V上下变动，属于正常现象，同时PD诱骗端会有微微发烫，不影响正常使用；使用QC协议的手机充电器时供电电压自动切换成12V，理论功率能达到18W，0-300度升温在1分钟左右。</p><h1 id="二、功能介绍"><a href="#二、功能介绍" class="headerlink" title="二、功能介绍"></a>二、功能介绍</h1><h2 id="2-1-产品外观"><a href="#2-1-产品外观" class="headerlink" title="2.1 产品外观"></a>2.1 产品外观</h2><h3 id="2-1-1-按键介绍"><a href="#2-1-1-按键介绍" class="headerlink" title="2.1.1 按键介绍"></a>2.1.1 按键介绍</h3><p>本产品按键位于手柄右侧，可上下按动或者左右拨动。</p><p>上下按动键为mode键，默认情况下在主菜单短按进入一级菜单，在一级菜单进入二级菜单，在二级菜单中短按，可修改参数，再次短按则完成修改参数，此时长按退出二级菜单、以此类推至返回主菜单。在主菜单中长按mode键会自动进入强温模式，再次长按mode键退出强温模式。</p><p>左右拨动键分别为UP\DOWN按键，在主菜单时，烙铁温控为默认模式情况下，向左拨动减少设定温度，长按时快速调温；向右波动时增加设定温度，长按时快速调温。在一级菜单中左右拨动分别【向上、向下】/【向左、向右】滑动页面；在二级菜单且进行修改参数时，通过左右拨动对参数进行调节。</p><h2 id="2-2-界面介绍"><a href="#2-2-界面介绍" class="headerlink" title="2.2 界面介绍"></a>2.2 界面介绍</h2><h3 id="2-2-1-主菜单"><a href="#2-2-1-主菜单" class="headerlink" title="2.2.1 主菜单"></a>2.2.1 主菜单</h3><p>左上角图示为状态指示，具体有三种状态：</p><details yellow cyan open><summary> 休眠模式 </summary>              <div class='content'>              <p>当烙铁未使用时，达到休眠设定时间将会自动进入休眠模式，休眠模式默认温控200度，可在系统中进行设置，具体操作见下文[]；</p>              </div>            </details><details blue cyan open><summary> 默认模式 </summary>              <div class='content'>              <p>开机/拿起烙铁进行使用时会自动切换成默认模式,默认温度设置为320度，可在系统中进行设置，具体操作见下；</p>              </div>            </details><details yellow cyan open><summary> 强温模式 </summary>              <div class='content'>              <p>在主菜单长按mode键进入强温模式，此时默认温控400度，同样也能在系统中进行设置，再次长按mode键回到默认模式。</p>              </div>            </details><p>左下角为设定温度显示区，显示此时的设定温度值。</p><p>中间部分为烙铁温度显示区，显示当前烙铁的温度，当未检测到烙铁头时，会显示“NO DRIVER”图标，此时焊笔不工作，插入烙铁头后才触发工作。</p><p>右上角为系统状态显示区，显示系统当前的电压、设备温度。</p><p>右下角为PWM显示区域。</p><h3 id="2-2-2-一级菜单"><a href="#2-2-2-一级菜单" class="headerlink" title="2.2.2 一级菜单"></a>2.2.2 一级菜单</h3><p>一级菜单中包含九大设置，包括【参数整定】、【屏幕设置】、【基础设置】、【休眠时间】、【温度阈值】、【焊咀校准】、【电源管理】、【菜单设置】、【关于设备】。</p><h3 id="2-2-3-各设置功能介绍"><a href="#2-2-3-各设置功能介绍" class="headerlink" title="2.2.3 各设置功能介绍"></a>2.2.3 各设置功能介绍</h3><details green cyan open><summary> 【参数整定】 </summary>              <div class='content'>              <div class="note info"><p>【比例整定】</p></div><div class="note info"><p>【积分整定】</p></div><div class="note info"><p>【微分整定】</p></div>              </div>            </details><details green cyan open><summary> 【屏幕设置】 </summary>              <div class='content'>                            </div>            </details><details green cyan open><summary> 【基础设置】 </summary>              <div class='content'>                            </div>            </details><details green cyan open><summary> 【休眠时间】 </summary>              <div class='content'>                            </div>            </details><details green cyan open><summary> 【温度阈值】 </summary>              <div class='content'>                            </div>            </details><details green cyan open><summary> 【焊咀校准】 </summary>              <div class='content'>                            </div>            </details><details green cyan open><summary> 【电源管理】 </summary>              <div class='content'>                            </div>            </details><details green cyan open><summary> 【菜单设置】 </summary>              <div class='content'>                            </div>            </details><details green cyan open><summary> 【关于设备】 </summary>              <div class='content'>                            </div>            </details><p>​        </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+            <tag> T12 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Office365极简激活</title>
       <link href="2021/04/07/quan-wang-zui-jian-dan-office-ji-huo-jiao-cheng/"/>
       <url>2021/04/07/quan-wang-zui-jian-dan-office-ji-huo-jiao-cheng/</url>
@@ -179,6 +206,31 @@
             <tag> 林俊杰 </tag>
             
             <tag> 音乐 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>五步迅速激活Windows 10</title>
+      <link href="2020/10/28/5-bu-xun-su-ji-huo-windows-10-fu-ben/"/>
+      <url>2020/10/28/5-bu-xun-su-ji-huo-windows-10-fu-ben/</url>
+      
+        <content type="html"><![CDATA[<a id="more"></a><h2 id="一、下载激活软件压缩包"><a href="#一、下载激活软件压缩包" class="headerlink" title="一、下载激活软件压缩包"></a>一、下载激活软件压缩包</h2><span class='btn center large'><a class="button" href='https://alongxii.lanzous.com/i7EAthrz30h' title='点击下载'><i class='fas fa-download'></i>点击下载</a></span><h2 id="二、关闭所有杀毒软件"><a href="#二、关闭所有杀毒软件" class="headerlink" title="二、关闭所有杀毒软件"></a>二、关闭所有杀毒软件</h2><p><img src="https://gitee.com/Alongxi/img/raw/master/mypic/keil4.png" class="lazyload" data-srcset="https://gitee.com/Alongxi/img/raw/master/mypic/keil4.png" srcset="data:image/png;base64,666"></p><h2 id="三、解压缩"><a href="#三、解压缩" class="headerlink" title="三、解压缩"></a>三、解压缩</h2><p><img src="https://gitee.com/Alongxi/img/raw/master/mypic/w2.png" class="lazyload" data-srcset="https://gitee.com/Alongxi/img/raw/master/mypic/w2.png" srcset="data:image/png;base64,666"></p><h2 id="四、双击打开激活软件"><a href="#四、双击打开激活软件" class="headerlink" title="四、双击打开激活软件"></a>四、双击打开激活软件</h2><p><img src="https://cdn.jsdelivr.net/gh/Alongxi/image/img/w1.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/Alongxi/image/img/w1.png" srcset="data:image/png;base64,666"></p><h2 id="五、点击激活按钮等待激活完成"><a href="#五、点击激活按钮等待激活完成" class="headerlink" title="五、点击激活按钮等待激活完成"></a>五、点击激活按钮等待激活完成</h2><p><img src="https://cdn.jsdelivr.net/gh/Alongxi/image/img/w2.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/Alongxi/image/img/w2.png" srcset="data:image/png;base64,666"></p><p><img src="https://cdn.jsdelivr.net/gh/Alongxi/image/img/w3.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/Alongxi/image/img/w3.png" srcset="data:image/png;base64,666"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
             
         </tags>
       
