@@ -5,8 +5,6 @@
   <!-- SEO相关 -->
   
     
-      <meta name="robots" content="noindex,follow">
-    
   
   <!-- 渲染优化 -->
   <meta http-equiv='x-dns-prefetch-control' content='on' />
@@ -21,9 +19,13 @@
 
   <!-- 页面元数据 -->
   
-  <title>归档：2020 - Along的个人博客</title>
+  <title>Mini-T12固件烧录指南 - Along的个人博客</title>
+  
+    <meta name="keywords" content="教程,T12">
   
 
+  
+    <meta name="description" content="​    关于【XT-100】(Mini-T12)的固件烧录指南。">
   
 
   <!-- feed -->
@@ -1844,7 +1846,7 @@
     <div id="l_cover">
   
     
-        <div id="half" class='cover-wrapper  search' style="display: ;">
+        <div id="half" class='cover-wrapper post search' style="display: ;">
           
             <div class='cover-bg lazyload placeholder' data-bg="https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/012.jpg"></div>
           
@@ -1923,620 +1925,316 @@
         
 
 <div class='l_main'>
-	
-		
-  <section class="post-list">
+  <article class="article post white-box reveal md shadow article-type-post" id="post" itemscope itemprop="blogPost">
+  
+
+
+  
+  <div class="article-meta" id="top">
     
     
-      
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow">
-  
-  
-  
-    <div class='headimg-div'>
-      <a class='headimg-a' href="/2020/10/29/fen-xiang-xing-cun-zhe-lin-jun-jie-zhuan-ji-mp3/">
-        <img class='headimg' src='https://cdn.jsdelivr.net/gh/Alongxi/image/img/jjlin.jpg'/>
-      </a>
-    </div>
-  
-  
     
-    <h2 class="article-title" >
-      <a href="/2020/10/29/fen-xiang-xing-cun-zhe-lin-jun-jie-zhuan-ji-mp3/">
-        【分享】幸存者·如你-林俊杰（专辑）mp3
-      </a>
-    </h2>
-  
-  <div class='md'>
-    
-      <p>如果你 不只是你，那会怎样？</p>
-<p>JJ林俊杰 第14张大碟 幸存者．如你</p>
-<p>双维度EP 创造全新音乐视角</p>
-<p>由JJ 林俊杰 亲自领导整张专辑的企划创意与视觉</p>
-    
-  </div>
-  
-    <div class='meta-v3' line_style='dashed'>
-      <div>
+      <h1 class="title">
+        Mini-T12固件烧录指南
+      </h1>
+      <div class='new-meta-box'>
         
           
-          <a class='avatar' href='https://alongxii.xyz'><img src='/medias/logo.png'></a>
-        
-        <time>2020-10-29</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/%E5%88%86%E4%BA%AB/">分享</a>
-        
-      </div>
-      
-        <div>
-          <a class='readmore' href='/2020/10/29/fen-xiang-xing-cun-zhe-lin-jun-jie-zhuan-ji-mp3/'>
-            阅读全文
-          </a>
-        </div>
-      
-    </div>
-  
-
+            
+<div class='new-meta-item author'>
+  <a class='author' href="https://alongxii.xyz" rel="nofollow">
+    <img no-lazy src="/medias/logo.png">
+    <p>Along</p>
+  </a>
 </div>
 
-          </div>
+          
         
+          
+            
+  <div class='new-meta-item category'>
+    <a class='notlink'>
+      <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
+      <a class="category-link" href="/categories/Hide/">Hide</a><span class="sep"></span><a class="category-link" href="/categories/%E5%B7%A5%E5%85%B7/">工具</a>
+    </a>
+  </div>
+
+
+          
+        
+          
+            <div class="new-meta-item date">
+  <a class='notlink'>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：2021年5月8日</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+  <div class="new-meta-item browse leancloud">
+    <a class='notlink'>
+      
+      <div id="lc-pv" data-title="Mini-T12固件烧录指南" data-path="/2021/05/08/hide/mini-t12-gu-jian-shao-lu-zhi-nan/">
+        <i class="fas fa-eye fa-fw" aria-hidden="true"></i>
+        <span id='number'><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span>
+        次浏览
+      </div>
+    </a>
+  </div>
+
+
+          
+        
+          
+            
+  <div class="new-meta-item wordcount">
+    <a class='notlink'>
+      <i class="fas fa-keyboard fa-fw" aria-hidden="true"></i>
+      <p>字数：468字</p>
+    </a>
+  </div>
+  <div class="new-meta-item readtime">
+    <a class='notlink'>
+      <i class="fas fa-hourglass-half fa-fw" aria-hidden="true"></i>
+      <p>时长：1分钟</p>
+    </a>
+  </div>
+
+
+          
+        
+      </div>
+    
+  </div>
+
+
+  
+  <p>​    关于【XT-100】(Mini-T12)的固件烧录指南。</p>
+<a id="more"></a>
+
+<p>一、运行环境</p>
+<p>软件环境：</p>
+<p>1、下载STC-ISP软件，此软件用于控制板烧录程序使用。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Alongxi/image/img/stc-download0.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/Alongxi/image/img/stc-download0.png" srcset="data:image/png;base64,666"></p>
+<p>软件使用：</p>
+<p>2、下载CH340驱动包，安装好CH340驱动，此驱动供给烧录工具使用。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Alongxi/image/img/stc-download1.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/Alongxi/image/img/stc-download1.png" srcset="data:image/png;base64,666"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Alongxi/image/img/stc-download2.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/Alongxi/image/img/stc-download2.png" srcset="data:image/png;base64,666"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Alongxi/image/img/stc-download3.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/Alongxi/image/img/stc-download3.png" srcset="data:image/png;base64,666"></p>
+<p>硬件环境：</p>
+<p>在烧录固件之前请备好USB转TTL模块（CH340版本）一个（淘宝有卖，一般几块钱一个）。</p>
+<p>二、下载固件</p>
+<p>1、固件默认已经打包成压缩包（格式：ZIP）。请下载好固件之后将其解压。如图所示。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Alongxi/image/img/stc-download4.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/Alongxi/image/img/stc-download4.png" srcset="data:image/png;base64,666"></p>
+<p>2、解压完成后获得文件夹，以（hex）后缀名结尾的即为固件。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Alongxi/image/img/stc-download5.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/Alongxi/image/img/stc-download5.png" srcset="data:image/png;base64,666"></p>
+<p>三、烧录</p>
+<p>1、打开STC-ISP软件，如图所示。（请确保已经提前安装好CH340驱动）</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Alongxi/image/img/stc-download6.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/Alongxi/image/img/stc-download6.png" srcset="data:image/png;base64,666"></p>
+<p>2、选择芯片型号为STC8G2K64SS4。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Alongxi/image/img/stc-download7.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/Alongxi/image/img/stc-download7.png" srcset="data:image/png;base64,666"></p>
+<p>2、选择串口号（一般情况下，如果正确安装好CH340驱动，软件会自动识别串口号），如图所示，软件自动选择串口号为COM9（USB-SERVAL CH340标识）。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Alongxi/image/img/stc-download8.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/Alongxi/image/img/stc-download8.png" srcset="data:image/png;base64,666"></p>
+<p>3、修改《输入用户程序运行时的IRC频率》为【35MHz】。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Alongxi/image/img/stc-download9.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/Alongxi/image/img/stc-download9.png" srcset="data:image/png;base64,666"></p>
+<p>4、修改《设置用户EEPROM》大小为【1K】。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Alongxi/image/img/stc-download10.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/Alongxi/image/img/stc-download10.png" srcset="data:image/png;base64,666"></p>
+<p>5、勾选上《下次下载用户程序时擦除用户EEPROM区》。至此，软件方面配置完成。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Alongxi/image/img/stc-download11.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/Alongxi/image/img/stc-download11.png" srcset="data:image/png;base64,666"></p>
+<p>6、点击《打开程序文件》，找到之前解压好的hex格式的固件（建议移动至桌面，方便寻找）。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Alongxi/image/img/stc-download12.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/Alongxi/image/img/stc-download12.png" srcset="data:image/png;base64,666"></p>
+<p>7、将USB转TTL的四个引脚【VCC、RXD、TXD、GND】分别连接至控制板的四个触点。如下图所示。（下载器的VCC连接至控制板的VCC，下载器的GND连接至控制板的GND，下载器的RXD连接至控制板的TXD，下载器的TXD连接至控制板的RXD）。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Alongxi/image/img/stc-download13.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/Alongxi/image/img/stc-download13.png" srcset="data:image/png;base64,666"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Alongxi/image/img/stc-download14.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/Alongxi/image/img/stc-download14.png" srcset="data:image/png;base64,666"></p>
+<p>8、点击烧录软件的《下载\编程》，等待程序烧录完毕。程序烧录完毕后右下角会显示下载完成的代码，如图所示。</p>
+
+  
+  
+    
+    <div class='footer'>
+      
       
         
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow">
-  
-  
-  
-    <div class='headimg-div'>
-      <a class='headimg-a' href="/2020/10/28/5-bu-xun-su-ji-huo-windows-10/">
-        <img class='headimg' src='https://cdn.jsdelivr.net/gh/Alongxi/image/img/6fc311d038c45cb3a915bbc900631934.jpg'/>
-      </a>
+  <div class="related_posts">
+    <section class='header'>
+      <i class="fas fa-bookmark fa-fw" aria-hidden="true"></i><span>相关文章</span>
+    </section>
+    <section class='body'>
+      <div class="vlts-rps"><a class="item" href="\2021\04\12\gong-ju-mini-t12-yong-hu-shou-ce\" title="【XT-100】Mini-T12用户手册" rel="bookmark "><img src="https://cdn.jsdelivr.net/gh/Alongxi/image/img/XT100(1).jpg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/Alongxi/image/img/XT100(1).jpg" srcset="data:image/png;base64,666" /><span class="title">【XT-100】Mini-T12用户手册</span><span class="excerpt">​    关于【XT-100】(Mini-T12)的用户使用手册。</span></a><a class="item" href="\2020\10\28\5-bu-xun-su-ji-huo-windows-10\" title="五步迅速激活Windows 10" rel="bookmark "><img src="https://gitee.com/Alongxi/img/raw/master/mypic/keil4.png" class="lazyload" data-srcset="https://gitee.com/Alongxi/img/raw/master/mypic/keil4.png" srcset="data:image/png;base64,666" /><span class="title">五步迅速激活Windows 10</span></a><a class="item" href="\2020\12\20\altium-designer-20-2-5-de-an-zhuang-po-jie-he-han-hua\" title="Altium Designer 20.2.5 的安装、破解和汉化" rel="bookmark "><img src="https://cdn.jsdelivr.net/gh/Alongxi/image/img/add1.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/Alongxi/image/img/add1.png" srcset="data:image/png;base64,666" /><span class="title">Altium Designer 20.2.5 的安装、破解和汉化</span><span class="excerpt">Altium Designer 是原Protel软件开发商Altium公司推出的一体化的电子产品开发系统，主要运行在Win...</span></a><a class="item" href="\2020\10\28\iar-for-arm-de-an-zhuang-po-jie-he-han-hua\" title="IAR for ARM 的安装、破解和汉化" rel="bookmark "><img src="data:images/png;base64,666" /><span class="title">IAR for ARM 的安装、破解和汉化</span><span class="excerpt">IAR Embedded Workbench for ARM（简称IAR for ARM）是一款微处理器开发的一个集成开发...</span></a><a class="item" href="\2020\12\26\hide\ad-li-chuang-eda-cong-ci-zai-ye-bu-yong-shou-gong-hui-zhi-yuan-jian-feng-zhuang\" title="AD+立创EDA,从此再也不用手工绘制元件封装" rel="bookmark "><img src="https://lceda.cn/fonts/blue-logo-cn.svg?59fdaa91795d4711b2c02ff587b2d6a4" class="lazyload" data-srcset="https://lceda.cn/fonts/blue-logo-cn.svg?59fdaa91795d4711b2c02ff587b2d6a4" srcset="data:image/png;base64,666" /><span class="title">AD+立创EDA,从此再也不用手工绘制元件封装</span><span class="excerpt">立创EDA用户分享的元器件库同样可以导入至ad中使用。</span></a></div></section></div>
+      
+      
+        <div class='copyright'>
+          <blockquote>
+            
+              
+                <p>博客内容遵循国际(CC4.0)协议</p>
+
+              
+            
+              
+                <p>本文永久链接是：<a href=http://alongxii.xyz/2021/05/08/hide/mini-t12-gu-jian-shao-lu-zhi-nan/>http://alongxii.xyz/2021/05/08/hide/mini-t12-gu-jian-shao-lu-zhi-nan/</a></p>
+              
+            
+          </blockquote>
+        </div>
+      
+      
     </div>
   
   
     
-    <h2 class="article-title" >
-      <a href="/2020/10/28/5-bu-xun-su-ji-huo-windows-10/">
-        五步迅速激活Windows 10
-      </a>
-    </h2>
-  
-  <div class='md'>
-    
+
+
+  <div class='article-meta' id="bottom">
+    <div class='new-meta-box'>
       
         
+          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2021-05-08T00:33:54+08:00">
+  <a class='notlink'>
+    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <p>更新于：2021年5月8日</p>
+  </a>
+</div>
 
-一、下载激活软件压缩包点击下载
+        
+      
+        
+          
+  
+  <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E6%95%99%E7%A8%8B/" rel="nofollow"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i><p>教程</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/T12/" rel="nofollow"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i><p>T12</p></a></div>
 
-二、关闭所有杀毒软件
-三、解压缩
-四、双击打开激活软件
-五、点击激活按钮等待激活完成
 
-
+        
+      
+        
+          
+  <div class="new-meta-item share -mob-share-list">
+  <div class="-mob-share-list share-body">
+    
+      
+        <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://alongxii.xyz/2021/05/08/hide/mini-t12-gu-jian-shao-lu-zhi-nan/&title=Mini-T12固件烧录指南 - Along的个人博客&summary=​    关于【XT-100】(Mini-T12)的固件烧录指南。"
+          
+          >
+          
+            <img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qq.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qq.png" srcset="data:image/png;base64,666">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://alongxii.xyz/2021/05/08/hide/mini-t12-gu-jian-shao-lu-zhi-nan/&title=Mini-T12固件烧录指南 - Along的个人博客&summary=​    关于【XT-100】(Mini-T12)的固件烧录指南。"
+          
+          >
+          
+            <img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qzone.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qzone.png" srcset="data:image/png;base64,666">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://service.weibo.com/share/share.php?url=http://alongxii.xyz/2021/05/08/hide/mini-t12-gu-jian-shao-lu-zhi-nan/&title=Mini-T12固件烧录指南 - Along的个人博客&summary=​    关于【XT-100】(Mini-T12)的固件烧录指南。"
+          
+          >
+          
+            <img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/weibo.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/weibo.png" srcset="data:image/png;base64,666">
+          
+        </a>
+      
+    
+      
+    
       
     
   </div>
-  
-    <div class='meta-v3' line_style='dashed'>
-      <div>
-        
-          
-          <a class='avatar' href='https://alongxii.xyz'><img src='/medias/logo.png'></a>
-        
-        <time>2020-10-28</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/%E5%B7%A5%E5%85%B7/">工具</a>
-        
-      </div>
-      
-        <div>
-          <a class='readmore' href='/2020/10/28/5-bu-xun-su-ji-huo-windows-10/'>
-            阅读全文
-          </a>
-        </div>
-      
-    </div>
-  
-
 </div>
 
-          </div>
+
+
         
       
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow">
-  
-  
-  
-    <div class='headimg-div'>
-      <a class='headimg-a' href="/2020/10/28/iar-for-arm-de-an-zhuang-po-jie-he-han-hua/">
-        <img class='headimg' src='https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/002.jpg'/>
-      </a>
     </div>
-  
-  
-    
-    <h2 class="article-title" >
-      <a href="/2020/10/28/iar-for-arm-de-an-zhuang-po-jie-he-han-hua/">
-        IAR for ARM 的安装、破解和汉化
-      </a>
-    </h2>
-  
-  <div class='md'>
-    
-      <p>IAR Embedded Workbench for ARM（简称IAR for ARM）是一款微处理器开发的一个集成开发环境软件，支持ARM，AVR，MSP430等芯片内核平台。</p>
-    
   </div>
+
+
   
-    <div class='meta-v3' line_style='dashed'>
-      <div>
-        
-          
-          <a class='avatar' href='https://alongxii.xyz'><img src='/medias/logo.png'></a>
-        
-        <time>2020-10-28</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/Hide/">Hide</a><span class="sep"></span><a class="category-link" href="/categories/%E5%B7%A5%E5%85%B7/">工具</a>
-        
-      </div>
+  
+
+  
+    <div class="prev-next">
       
-        <div>
-          <a class='readmore' href='/2020/10/28/iar-for-arm-de-an-zhuang-po-jie-he-han-hua/'>
-            阅读全文
-          </a>
-        </div>
+      
+        <a class='next' href='/2021/04/12/gong-ju-mini-t12-yong-hu-shou-ce/'>
+          <p class='title'>【XT-100】Mini-T12用户手册<i class="fas fa-chevron-right" aria-hidden="true"></i></p>
+          <p class='content'>​    关于【XT-100】(Mini-T12)的用户使用手册。
+
+
+XT-100便携式电焊笔用户手册
+
+修订历史
+
+
+
+版本
+更新日期
+更新说明
+作者
+
+
+
+V1.0.0
+2021.04.0...</p>
+        </a>
       
     </div>
   
+</article>
+
+
+  
+
+  <article class="post white-box reveal shadow" id="comments">
+    <p ct><i class='fas fa-comment'></i> 评论</p>
+    
+    <div id="valine_container" class="valine_thread">
+  <i class="fas fa-cog fa-spin fa-fw fa-2x"></i>
+</div>
+
+  </article>
+
+
+
+
+
+
 
 </div>
 
-          </div>
-        
-      
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow">
-  
-  
-  
-    <div class='headimg-div'>
-      <a class='headimg-a' href="/2020/10/22/keil-arm-xin-zhu-ce-ji-jie-suo-zhu-ce-zhi-2032-nian/">
-        <img class='headimg' src='https://gitee.com/Alongxi/img/raw/master/mypic/keil_back.jpg'/>
-      </a>
-    </div>
-  
-  
-    
-    <h2 class="article-title" >
-      <a href="/2020/10/22/keil-arm-xin-zhu-ce-ji-jie-suo-zhu-ce-zhi-2032-nian/">
-        keil Arm新注册机解锁注册至2032年
-      </a>
-    </h2>
-  
-  <div class='md'>
-    
-      <p>还在为keil注册机只能注册到2020年而烦恼，那么2020年之后该如何正常使用keil软件进行编程呢，这里将贴出最新版本的keil注册机，直接将你的Keil软件注册至2032年。</p>
-    
-  </div>
-  
-    <div class='meta-v3' line_style='dashed'>
-      <div>
-        
-          
-          <a class='avatar' href='https://alongxii.xyz'><img src='/medias/logo.png'></a>
-        
-        <time>2020-10-22</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/%E5%B7%A5%E5%85%B7/">工具</a>
-        
-      </div>
-      
-        <div>
-          <a class='readmore' href='/2020/10/22/keil-arm-xin-zhu-ce-ji-jie-suo-zhu-ce-zhi-2032-nian/'>
-            阅读全文
-          </a>
-        </div>
-      
-    </div>
-  
-
-</div>
-
-          </div>
-        
-      
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow">
-  
-  
-  
-    <div class='headimg-div'>
-      <a class='headimg-a' href="/2020/10/20/cong-0-kai-shi-da-jian-mc-fu-wu-qi-ji-chu-pian/">
-        <img class='headimg' src='https://gitee.com/Alongxi/img/raw/master/mypic/minecraft1.jpg'/>
-      </a>
-    </div>
-  
-  
-    
-    <h2 class="article-title" >
-      <a href="/2020/10/20/cong-0-kai-shi-da-jian-mc-fu-wu-qi-ji-chu-pian/">
-        从0开始搭建MC服务器【基础篇】
-      </a>
-    </h2>
-  
-  <div class='md'>
-    
-      <p>本文将演示如何从0开始搭建一个MC本地服务器，教大家如何和朋友愉快联机！！！</p>
-    
-  </div>
-  
-    <div class='meta-v3' line_style='dashed'>
-      <div>
-        
-          
-          <a class='avatar' href='https://alongxii.xyz'><img src='/medias/logo.png'></a>
-        
-        <time>2020-10-20</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/%E6%B8%B8%E6%88%8F/">游戏</a>
-        
-      </div>
-      
-        <div>
-          <a class='readmore' href='/2020/10/20/cong-0-kai-shi-da-jian-mc-fu-wu-qi-ji-chu-pian/'>
-            阅读全文
-          </a>
-        </div>
-      
-    </div>
-  
-
-</div>
-
-          </div>
-        
-      
-    
-  </section>
-  
-    
-      <br>
-      <div class="prev-next">
-        
-          <a class="prev" rel="prev" href="/archives/2020/">
-            <section class="post prev white-box shadow" >
-              <i class="fas fa-chevron-left" aria-hidden="true"></i>&nbsp;上一页&nbsp;
-            </section>
-          </a>
-        
-        <p class="current">
-          2 / 3
-        </p>
-        
-          <a class="next" rel="next" href="/archives/2020/page/3/">
-            <section class="post next white-box shadow">
-              &nbsp;下一页&nbsp;<i class="fas fa-chevron-right" aria-hidden="true"></i>
-            </section>
-          </a>
-        
-      </div>
-    
-  
-
-
-	
-</div>
 <aside class='l_side'>
   
   
     
     
 
-<section class="widget blogger shadow desktop mobile">
-  <div class='content'>
-    
-      
-        <a class='avatar flat-box circle' href='/about/'>
-          <img no-lazy src='/medias/logo.png'/>
-        </a>
-      
-    
-    
-    
-      <div class="social-wrapper">
-        
-          
-            <a href="tencent://message/?uin=1259306443&amp;Site=admin5.com&amp;Menu=yes"
-              class="social fas fa-user flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="mailto:1259306443@qq.com"
-              class="social fas fa-envelope flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="https://github.com/volantis-x/"
-              class="social fab fa-github flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="/"
-              class="social fas fa-headphones-alt flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-      </div>
-    
-  </div>
-</section>
-
-  
-
-  
-    
-    
 
 
-
-
-  
-
-  
-    
-    
-  
-
-  <section class="widget category shadow desktop">
-    
-  <header>
-    
-      <a href='/blog/categories/'><i class="fas fa-folder-open fa-fw" aria-hidden="true"></i><span class='name'>文章分类</span></a>
-    
-  </header>
-
-
-    <div class='content'>
-      <ul class="entry navigation">
-        
-          <li><a class="flat-box"
-            title="/categories/Hide/" href="/categories/Hide/"
-            id="categoriesHide"
-            ><div class='name'>Hide</div><div class='badge'>(4)</div></a></li>
-        
-          <li><a class="flat-box"
-            title="/categories/%E5%88%86%E4%BA%AB/" href="/categories/%E5%88%86%E4%BA%AB/"
-            id="categoriesE58886E4BAAB"
-            ><div class='name'>分享</div><div class='badge'>(1)</div></a></li>
-        
-          <li><a class="flat-box"
-            title="/categories/%E5%AD%A6%E4%B9%A0/" href="/categories/%E5%AD%A6%E4%B9%A0/"
-            id="categoriesE5ADA6E4B9A0"
-            ><div class='name'>学习</div><div class='badge'>(1)</div></a></li>
-        
-          <li><a class="flat-box"
-            title="/categories/%E5%B7%A5%E5%85%B7/" href="/categories/%E5%B7%A5%E5%85%B7/"
-            id="categoriesE5B7A5E585B7"
-            ><div class='name'>工具</div><div class='badge'>(11)</div></a></li>
-        
-          <li><a class="flat-box"
-            title="/categories/%E6%B8%B8%E6%88%8F/" href="/categories/%E6%B8%B8%E6%88%8F/"
-            id="categoriesE6B8B8E6888F"
-            ><div class='name'>游戏</div><div class='badge'>(1)</div></a></li>
-        
-      </ul>
-    </div>
-  </section>
-
-
-  
-
-  
-    
-    
-  
-
-  <section class="widget tagcloud shadow desktop mobile">
-    
-  <header>
-    
-      <a href='/blog/tags/'><i class="fas fa-tags fa-fw" aria-hidden="true"></i><span class='name'>热门标签</span></a>
-    
-  </header>
-
-
-    <div class='content'>
-      <a href="/tags/Altium-Designer/" style="font-size: 20.67px; color: #6c6c6c">Altium Designer</a> <a href="/tags/IAR/" style="font-size: 14px; color: #999">IAR</a> <a href="/tags/Keil/" style="font-size: 14px; color: #999">Keil</a> <a href="/tags/MC/" style="font-size: 14px; color: #999">MC</a> <a href="/tags/T12/" style="font-size: 17.33px; color: #828282">T12</a> <a href="/tags/%E6%95%99%E7%A8%8B/" style="font-size: 24px; color: #555">教程</a> <a href="/tags/%E6%9E%97%E4%BF%8A%E6%9D%B0/" style="font-size: 14px; color: #999">林俊杰</a> <a href="/tags/%E7%99%BE%E5%BA%A6%E4%BA%91%E7%9B%B8%E5%85%B3/" style="font-size: 14px; color: #999">百度云相关</a> <a href="/tags/%E9%9F%B3%E4%B9%90/" style="font-size: 14px; color: #999">音乐</a>
-    </div>
-  </section>
-
-
-  
-
-  
-    
-    
-
-<section class="widget qrcode shadow desktop">
-  
-  <header>
-    
-      <i class="fas fa-toggle-on fa-fw" aria-hidden="true"></i><span class='name'>打赏作者</span>
-    
-  </header>
-
-
-  <div class='content article-entry'>
-    
-      <img src='/medias/wechat.png'
-      
-        height='100px'
-      />
-    
-  </div>
-</section>
-
-  
-
-  
-    
-    
-
-<section class="widget shadow desktop">
-  
-  <header>
-    
-      <i class="fas fa-award fa-fw" aria-hidden="true"></i><span class='name'>站点信息</span>
-    
-  </header>
-
-
-  <div class='content'>
-    <div class="webinfo">
-      
-        <div class="webinfo-item">
-          <div>文章数目：</div>
-          <div>14 篇</div>
-        </div>
-      
-
-      
-        <div class="webinfo-item">
-          <div>已运行时间：</div>
-          <div id="webinfo-runtime-count" publish_date="03/24/2020 21:34:09"></div>
-        </div>
-        <script>
-          var BirthDay = new Date(new Date('2020/10/10'));
-          var today = new Date();
-          var timeold = (today.getTime() - BirthDay.getTime());
-          var daysold = Math.floor(timeold / (24 * 60 * 60 * 1000));
-          document.getElementById('webinfo-runtime-count').innerHTML = daysold + ' 天';
-        </script>
-      
-
-
-      
-        <div class="webinfo-item">
-          <div>本站总字数：</div>
-          <div>10.7k 字</div>
-        </div>
-      
-
-      
-        <div class="webinfo-item">
-          <div>本站访客数：</div>
-          
-          <div><span id="lc-uv"><span id='number'><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span></span> 人</div>
-          
-        </div>
-      
-
-      
-        <div class="webinfo-item">
-          <div>本站总访问量：</div>
-          
-          <div><span id="lc-sv"><span id='number'><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span></span> 次</div>
-          
-        </div>
-      
-
-      
-        <div class="webinfo-item">
-          <div>最后活动时间：</div>
-          
-            <div id="last-update" style="display: none;">Sat May 08 2021 00:37:18 GMT+0800 (中国标准时间)</div>
-            <div id="last-update-show">2021-05-08 日</div>
-          
-        </div>
-        
-        <script>
-          function timeago(dateTimeStamp) {
-              var minute = 1000 * 60; //把分，时，天，周，半个月，一个月用毫秒表示
-              var hour = minute * 60;
-              var day = hour * 24;
-              var week = day * 7;
-              var month = day * 30;
-              var now = new Date().getTime(); //获取当前时间毫秒
-              var diffValue = now - dateTimeStamp; //时间差
-              if (diffValue < 0) {
-                  return;
-              }
-              var minC = diffValue / minute; //计算时间差的分，时，天，周，月
-              var hourC = diffValue / hour;
-              var dayC = diffValue / day;
-              var weekC = diffValue / week;
-              var monthC = diffValue / month;
-              if (monthC >= 1 && monthC <= 3) {
-                  result = " " + parseInt(monthC) + " 月前"
-              } else if (weekC >= 1 && weekC <= 3) {
-                  result = " " + parseInt(weekC) + " 周前"
-              } else if (dayC >= 1 && dayC <= 6) {
-                  result = " " + parseInt(dayC) + " 天前"
-              } else if (hourC >= 1 && hourC <= 23) {
-                  result = " " + parseInt(hourC) + " 小时前"
-              } else if (minC >= 1 && minC <= 59) {
-                  result = " " + parseInt(minC) + " 分钟前"
-              } else if (diffValue >= 0 && diffValue <= minute) {
-                  result = "刚刚"
-              } else {
-                  var datetime = new Date();
-                  datetime.setTime(dateTimeStamp);
-                  var Nyear = datetime.getFullYear();
-                  var Nmonth = datetime.getMonth() + 1 < 10 ? "0" + (datetime.getMonth() + 1) : datetime.getMonth() + 1;
-                  var Ndate = datetime.getDate() < 10 ? "0" + datetime.getDate() : datetime.getDate();
-                  var Nhour = datetime.getHours() < 10 ? "0" + datetime.getHours() : datetime.getHours();
-                  var Nminute = datetime.getMinutes() < 10 ? "0" + datetime.getMinutes() : datetime.getMinutes();
-                  var Nsecond = datetime.getSeconds() < 10 ? "0" + datetime.getSeconds() : datetime.getSeconds();
-                  result = Nyear + "-" + Nmonth + "-" + Ndate
-              }
-              return result;
-          }
-          var lastUpDate = document.getElementById('last-update').innerHTML;
-          try {
-            document.getElementById('last-update-show').innerHTML = timeago(new Date(lastUpDate));
-          } catch (error) {
-            document.getElementById('last-update-show').innerHTML = '2021-05-08 日';
-          }
-        </script>
-        
-      
-    </div>
-  </div>
-</section>
-
-  
 
   
 
 
 </aside>
+
+
+
+
 
 
         
@@ -2546,8 +2244,8 @@
 
 <script>
   window.pdata={}
-  pdata.ispage=false;
-  pdata.postTitle="";
+  pdata.ispage=true;
+  pdata.postTitle="Mini-T12固件烧录指南";
   pdata.commentPath="";
   pdata.commentPlaceholder="";
 
